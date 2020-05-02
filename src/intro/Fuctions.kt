@@ -1,3 +1,5 @@
+package intro
+
 fun main() {
     printMessage("Hello")
     printMessageWithPrefix("Hello", "Log")
@@ -5,7 +7,7 @@ fun main() {
     printMessageWithPrefix(prefix = "Log", message = "Hello")
     println(sum(1, 2))
 
-    println(multiply(3 , 3))
+    println(multiply(3, 3))
 }
 
 fun printMessage(message: String): Unit {
