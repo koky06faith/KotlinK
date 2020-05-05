@@ -1,4 +1,4 @@
-package intro
+package com.uitprojects.intro
 
 fun main() {
     printMessage("Hello")
